@@ -1,0 +1,45 @@
+#friends-display-link {
+  margin-top: -5px;
+  text-align: center;
+  display: block;
+  background-color: #fafafa;
+  padding: 15px 0px;
+  font-family: none;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: -15px;
+}
+.friends-display {
+  margin-left: -2.5px;
+}
+#friends-display-link i {
+  color: rgba(0, 0, 0, 0.3);
+}
+.frineds-screen {
+  padding: 0px var(--horizontal-space);
+}
+.melon-music {
+  border: 2.5px solid rgb(4 205 61);
+  height: 25px;
+  line-height: 25px;
+  align-items: center;
+  border-radius: 20px;
+  margin-right: 15px;
+
+  padding: 0px 0px 10px 12px;
+}
+.melon-music:first-child {
+  font-family: none;
+}
+
+.friends-screen__channel {
+  margin-top: 25px;
+  border-top: var(--main-border);
+  padding-top: 15px;
+}
+.friends-screen__channel-header {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(0, 0, 0, 0.5);
+}

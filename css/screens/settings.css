@@ -1,0 +1,48 @@
+.settings-header {
+  font-size: 35px;
+}
+.settings__menu-bar,
+.settings__menu-bar-etc {
+  margin: 30px 30px 70px 40px;
+}
+
+.settings__menubar-title {
+  padding-left: 30px;
+  font-size: 25px;
+  font-family: none;
+  padding-right: 8px;
+}
+.settings__menu-bar-etc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--main-color);
+  padding-bottom: 55px;
+}
+.settings__update {
+  padding-top: 23px;
+  padding-right: 10px;
+  font-size: 25px;
+  font-family: none;
+  color: rgba(0, 0, 0, 0.5);
+}
+.settings__new {
+  background-color: red;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: auto;
+  padding: 4.2px 7px;
+}
+.settings__menu-bar-etc_left {
+  display: flex;
+  align-items: center;
+}
+
+.settings-body .nav .nav__list .nav__btn {
+  animation: none;
+}

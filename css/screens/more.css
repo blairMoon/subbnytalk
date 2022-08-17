@@ -1,0 +1,68 @@
+.more-profile {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.user-component__column i {
+  margin-right: 30px;
+  margin-top: 10px;
+}
+.phone-number__icon {
+  margin-right: 5px;
+  color: rgb(159, 74, 74);
+}
+
+.more__menu-bar__first {
+  display: flex;
+  justify-content: space-between;
+}
+.more__menu-bar__second {
+  display: flex;
+  text-align: center;
+}
+.more__menu-bar_icon {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.more__menu-bar__first i {
+  margin: 20px 50px;
+  color: rgb(241, 161, 174);
+}
+.more__menu-bar__first span {
+  margin-bottom: 30px;
+  font-family: none;
+}
+.more__menu-bar__second i {
+  margin-left: 45px;
+  margin-right: 55px;
+  margin-bottom: 20px;
+  color: rgb(241, 161, 174);
+}
+.more__menu-bar__second span {
+  margin-right: 25px;
+  font-family: none;
+}
+.my-face_icon {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.more__myface {
+  display: flex;
+  justify-content: space-between;
+}
+.my-face_icon i {
+  margin: 20px 50px;
+}
+.subbny-face__header {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 35px;
+  margin-right: 20px;
+  border-top: 1px solid var(--main-color);
+  padding-top: 20px;
+
+  font-size: 25px;
+}

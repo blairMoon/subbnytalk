@@ -1,0 +1,60 @@
+.user-component {
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.user-component {
+  display: flex;
+}
+
+.user-component,
+.user-component__column {
+  display: flex;
+  align-items: center;
+}
+.user-component__avatar {
+  width: 73px;
+  height: 73px;
+  border-radius: 26px;
+  margin-right: 10px;
+}
+.user-component__title {
+  font-size: 23px;
+  font-weight: 600;
+}
+.user-component__subtitle {
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 17px;
+}
+.user-component__avatar--xl {
+  width: 80px;
+  height: 80px;
+}
+.user-component__column:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.user-componemt__time {
+  margin-bottom: 5px;
+  display: block;
+  color: rgba(0, 0, 0, 0.3);
+  font-family: none;
+}
+.user-component__subtitle {
+  padding-top: 3px;
+}
+.myface-pic {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px 25px;
+}
+.myface-pic span {
+  padding-top: 10px;
+}
+.myface-pic img {
+  width: 110px;
+  height: 110px;
+}
